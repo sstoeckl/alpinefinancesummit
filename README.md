@@ -50,10 +50,10 @@ Repository: <https://github.com/sstoeckl/alpinefinancesummit> (öffentlich), Git
 `main` / `/ (root)`. Jeder Push auf `main` ist nach ca. 1 Minute live unter
 <https://sstoeckl.github.io/alpinefinancesummit/>.
 
-Dieser Teams-Ordner ist die Arbeitskopie. Die Git-Daten liegen bewusst **außerhalb** von
-SharePoint (`C:\Users\sebastian.stoeckl\git\alpinefinancesummit.git`); im Ordner steht nur eine
-kleine `.git`-Datei, die dorthin zeigt. Normale `git`-Befehle funktionieren hier wie gewohnt.
+Dieser Teams-Ordner ist das Git-Repository (normaler `.git`-Ordner hier im Verzeichnis).
 Auf einem anderen Rechner einfach `git clone https://github.com/sstoeckl/alpinefinancesummit` verwenden.
+Hinweis: Nicht gleichzeitig von zwei Rechnern aus in diesem synchronisierten Ordner committen —
+OneDrive/SharePoint kann sonst Konfliktkopien von Dateien in `.git` erzeugen.
 
 Ändern und veröffentlichen:
 
